@@ -1,0 +1,80 @@
+
+*,*::before,*::after{
+    box-sizing: border-box;
+}
+
+html,body{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    font-size: 16px; 
+    justify-content: center;
+    font-family: 'Rubik', sans-serif;
+    user-select: none;
+}
+
+
+.container{
+max-width:320px;
+padding:6em 0.8em;
+background-color: antiquewhite;
+text-align:center;
+min-height: 100vh;
+}
+
+img{
+   width:200px;
+}
+
+input{
+  margin: 1em 0em;
+  text-align: center;
+}
+
+input:focus,
+button:focus{
+   outline: none;
+   border: 3px solid skyblue;
+}
+
+input,
+button
+{
+    border-radius: 4px;
+    width:80%;
+    padding: 1em;
+    border: none;
+    font: inherit;
+ } 
+
+ button{
+    background-color:firebrick;
+    color:whitesmoke;
+ }
+
+ ul{
+    width: 90%;
+    list-style: none;
+    display: flex;
+    gap:0.4em;
+    flex-wrap: wrap;
+ }  
+
+ ul li{
+    background-color: beige;
+    padding: 1em 0.5em;
+    flex-grow: 1;
+ }
+
+ li:hover{
+   background-color: firebrick;
+   color: antiquewhite;
+   cursor: pointer;
+ }
+
+
+
+
+
+
+
